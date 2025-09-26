@@ -21,9 +21,9 @@
 ## Classes
 Handle class for ESN objects.
 * **ESN** - handle class for ESN objects. Use this to initialise a new ESN; e.g., "esn=ESN()";
-* ESNFunctions - contains static methods used in ESN.
-* ESNHyperparameters - stores "default" ESN hyperparameters and is used to define custom ESN hyperparameters.
-* ESNSetup - Initialises the ESN architecture - weights, activations , etc
+* **ESNFunctions** - contains static methods used in ESN.
+* **ESNHyperparameters** - stores "default" ESN hyperparameters and is used to define custom ESN hyperparameters.
+* **ESNSetup** - Initialises the ESN architecture - weights, activations , etc
 
 ## Appendix Script
 Example of ESN architecture can be found in "AppendixExampleScript.m". The script can be ran independently to train an ESN for a 2D "Circle" trajectory forecasting. A copy of this code can be found in the Appendix C of my Thesis.
